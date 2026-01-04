@@ -1,8 +1,8 @@
 <?php
 /**
- * Uninstall routine for Shop Toolset for WooCommerce.
+ * Uninstall routine for Store Toolset for WooCommerce.
  *
- * @package Shop_Toolset_WooCommerce
+ * @package Store_Toolset_WooCommerce
  * @version 1.1.0
  */
 

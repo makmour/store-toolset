@@ -1,4 +1,4 @@
-=== Shop Toolset for WooCommerce ===
+=== Store Toolset for WooCommerce ===
 Contributors: wprepublic, thewebcitizen
 Donate link: https://wprepublic.com
 Tags: woocommerce, bulk delete products, delete categories, store maintenance, wp-cli
@@ -15,7 +15,7 @@ The ultimate modular toolkit for WooCommerce admins. Starts with the "Missing Fe
 
 **Building a WooCommerce store is easy. Maintaining a massive one is hard.**
 
-We built **Shop Toolset for WooCommerce** to be the Swiss Army knife that every store administrator wishes they had. This plugin is designed to host a variety of essential add-ons and utilities, evolving into a complete operations center for your shop.
+We built **Store Toolset for WooCommerce** to be the Swiss Army knife that every store administrator wishes they had. This plugin is designed to host a variety of essential add-ons and utilities, evolving into a complete operations center for your shop.
 
 ### The First Module: The "Bulk Delete" Solution
 
@@ -26,7 +26,7 @@ You are left with thousands of orphaned items, and the default interface only le
 
 **Now there is.**
 
-The **Shop Toolset Cleanup Module** allows you to select specific categories and surgically remove all products contained within them.
+The **Store Toolset Cleanup Module** allows you to select specific categories and surgically remove all products contained within them.
 
 ### Why this is the tool you've been looking for:
 
@@ -37,7 +37,7 @@ The **Shop Toolset Cleanup Module** allows you to select specific categories and
 ### 🚀 Supercharged with WP-CLI
 
 For developers and site reliability engineers, the graphical interface is just the beginning.
-**Shop Toolset** comes with robust **WP-CLI integration** out of the box.
+**Store Toolset** comes with robust **WP-CLI integration** out of the box.
 
 * **No Timeouts:** managing 50,000 products? Run the cleanup from the terminal. It is faster, more stable, and immune to browser timeouts (PHP max_execution_time).
 * **Secure & Scriptable:** Automate your store maintenance via cron jobs or shell scripts securely.
@@ -45,7 +45,7 @@ For developers and site reliability engineers, the graphical interface is just t
 
 ### What's Next?
 
-This is just the beginning. **Shop Toolset for WooCommerce** is being actively developed to include more modules for bulk editing, customer management, and store optimization.
+This is just the beginning. **Store Toolset for WooCommerce** is being actively developed to include more modules for bulk editing, customer management, and store optimization.
 
 > **WARNING:** This is a powerful, destructive tool. Always perform a full database backup before running a live cleanup.
 
@@ -54,10 +54,10 @@ This is just the beginning. **Shop Toolset for WooCommerce** is being actively d
 **From your WordPress dashboard:**
 
 1.  Navigate to 'Plugins > Add New'.
-2.  Search for 'Shop Toolset for WooCommerce'.
+2.  Search for 'Store Toolset for WooCommerce'.
 3.  Click 'Install Now'.
 4.  Activate the plugin.
-5.  Navigate to 'WooCommerce > Shop Toolset' to get started.
+5.  Navigate to 'WooCommerce > Store Toolset' to get started.
 
 == WP-CLI Commands ==
 
@@ -107,7 +107,7 @@ If you are trying to delete 10,000+ products, a web browser might "time out" (st
 == Changelog ==
 
 = 1.1.0 =
-* REBRAND: Renamed plugin to **Shop Toolset for WooCommerce** to reflect its new modular architecture.
+* REBRAND: Renamed plugin to **Store Toolset for WooCommerce** to reflect its new modular architecture.
 * FEATURE: Prepared codebase for future add-on modules.
 * UPDATE: Updated WP-CLI commands to `wp store-toolset`.
 
