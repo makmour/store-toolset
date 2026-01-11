@@ -7,15 +7,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * WP-CLI integration for WPRepublic Bulk Category Removal.
  */
-class WPR_Bulk_Category_Removal_CLI {
+class WPR_Bulk_Category_Removal_CLI extends WP_CLI_Command {
 
 	/**
 	 * List product categories.
 	 *
+	 * @subcommand list-categories
+	 *
 	 * ## EXAMPLES
 	 * wp wpr-bulk-category-removal-woocommerce list-categories
 	 */
-	public function list_categories() {
+	public function list_categories( $args, $assoc_args ) {
 		$categories = get_terms(
 			[
 				'taxonomy'   => 'product_cat',
